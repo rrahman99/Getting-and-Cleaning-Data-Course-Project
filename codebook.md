@@ -6,8 +6,12 @@ This code book summarizes the resulting data fields in tidy.txt.
 <li> subject - The ID of the test subject
 <li> activity - The type of activity performed when the corresponding measurements were taken
 ##Measurements 
-[1] "timeBodyAccelerometer-mean()-X"                 "timeBodyAccelerometer-mean()-Y"                 "timeBodyAccelerometer-mean()-Z"                 "timeBodyAccelerometer-std()-X"                 
- [5] "timeBodyAccelerometer-std()-Y"                  "timeBodyAccelerometer-std()-Z"                  "timeGravityAccelerometer-mean()-X"              "timeGravityAccelerometer-mean()-Y"             
+<li>timeBodyAccelerometer-mean()-X                 
+<li>timeBodyAccelerometer-mean()-Y
+<li>timeBodyAccelerometer-mean()-Z
+<li>timeBodyAccelerometer-std()-X
+<li>timeBodyAccelerometer-std()-Y
+<li>timeBodyAccelerometer-std()-Z                  "timeGravityAccelerometer-mean()-X"              "timeGravityAccelerometer-mean()-Y"             
  [9] "timeGravityAccelerometer-mean()-Z"              "timeGravityAccelerometer-std()-X"               "timeGravityAccelerometer-std()-Y"               "timeGravityAccelerometer-std()-Z"              
 [13] "timeBodyAccelerometerJerk-mean()-X"             "timeBodyAccelerometerJerk-mean()-Y"             "timeBodyAccelerometerJerk-mean()-Z"             "timeBodyAccelerometerJerk-std()-X"             
 [17] "timeBodyAccelerometerJerk-std()-Y"              "timeBodyAccelerometerJerk-std()-Z"              "timeBodyGyroscope-mean()-X"                     "timeBodyGyroscope-mean()-Y"                    
