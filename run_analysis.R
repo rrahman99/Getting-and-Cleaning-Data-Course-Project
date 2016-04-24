@@ -38,7 +38,7 @@ selectedNames<-c(as.character(subdataFeaturesNames), "subject", "activity" )
 Data<-subset(Data,select=selectedNames)
 
 # Uses descriptive activity names to name the activities in the data set
-##Read descriptive activity names from “activity_labels.txt”
+##Read descriptive activity names from â€œactivity_labels.txtâ€
 activityLabels <- read.table(file.path(path_rf, "activity_labels.txt"),header = FALSE)
 
 # Appropriately labels the data set with descriptive variable names
@@ -54,6 +54,3 @@ library(plyr);
 Data2<-aggregate(. ~subject + activity, Data, mean)
 Data2<-Data2[order(Data2$subject,Data2$activity),]
 write.table(Data2, file = "tidydata.txt",row.name=FALSE)
-##Prouduce Codebook
-library(knitr)
-knit2html("codebook.Rmd");
