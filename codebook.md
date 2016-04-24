@@ -3,8 +3,8 @@ This code book summarizes the resulting data fields in tidy.txt.
 
 ##Identifiers
 
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
+<li> subject - The ID of the test subject
+<li> activity - The type of activity performed when the corresponding measurements were taken
 ##Measurements 
 [1] "timeBodyAccelerometer-mean()-X"                 "timeBodyAccelerometer-mean()-Y"                 "timeBodyAccelerometer-mean()-Z"                 "timeBodyAccelerometer-std()-X"                 
  [5] "timeBodyAccelerometer-std()-Y"                  "timeBodyAccelerometer-std()-Z"                  "timeGravityAccelerometer-mean()-X"              "timeGravityAccelerometer-mean()-Y"             
